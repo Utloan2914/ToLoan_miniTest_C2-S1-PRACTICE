@@ -1,12 +1,10 @@
 import pnLogo from "./assets/pn-logo.png";
 import Header from "./components/Header";
+import Scores from "./components/Scores";
 function App() {
   return (
     <>
-      <header id="header">
-        <img src={pnLogo} alt="PN Logo" />
-        <h1>Students results for (fake batch name))</h1>
-      </header>
+      <Header batchName= "batch 14/6/2024"/>
 
       <main className="scores-container">
         <div class="scores">
@@ -40,3 +38,4 @@ function App() {
 }
 
 export default App;
+
