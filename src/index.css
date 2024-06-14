@@ -105,7 +105,9 @@ body {
   font-size: 1rem;
   color: var(--grey-color);
 }
-
+.scorecolor{
+  color:red
+}
 .warning {
   color: var(--secondary-color);
 }

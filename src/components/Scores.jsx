@@ -17,7 +17,7 @@ function Scores({ courseName, courseResults }) {
             <tr key={index}>
               <td>{result.firstName}</td>
               <td>{result.lastName}</td>
-              <td>{result.score}</td>
+              <td class="scorecolor">{result.score}</td>
             </tr>
           ))}
         </tbody>
